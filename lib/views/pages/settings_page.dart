@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:newerapp/theme/theme_mode.dart';
-import 'package:newerapp/views/pages/home_page.dart';
+import 'package:waka_go/theme/theme_mode.dart';
+import 'package:waka_go/views/pages/home_page.dart';
 
 class SettingsDrawer extends ConsumerWidget {
   const SettingsDrawer({super.key});
@@ -34,6 +34,7 @@ class SettingsDrawer extends ConsumerWidget {
               ),
               trailing: Switch(
                 value: isdarkmodeOn,
+                activeColor: Colors.blueAccent,
                 onChanged: (value) {
                   ref.watch(themeModeToggleProvider.notifier).state =
                       toggleTheme == darkMode ? lightMode : darkMode;

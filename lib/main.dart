@@ -1,12 +1,12 @@
 // ignore_for_file: prefer_const_constructors, unused_import
 
 import 'package:flutter/material.dart';
-import 'package:newerapp/theme/theme_mode.dart';
-import 'package:newerapp/views/pages/welcome_page.dart';
-import 'package:newerapp/data/notifiers.dart';
-import 'package:newerapp/views/pages/settings_page.dart';
-import 'package:newerapp/views/pages/accountpage.dart';
-import 'package:newerapp/views/pages/orderPage.dart';
+import 'package:waka_go/theme/theme_mode.dart';
+import 'package:waka_go/views/pages/welcome_page.dart';
+import 'package:waka_go/data/notifiers.dart';
+import 'package:waka_go/views/pages/settings_page.dart';
+import 'package:waka_go/views/pages/accountpage.dart';
+import 'package:waka_go/views/pages/orderPage.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 

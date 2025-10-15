@@ -2,14 +2,14 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:newerapp/theme/theme_mode.dart';
-import 'package:newerapp/views/pages/accountpage.dart';
-import 'package:newerapp/views/pages/home_page.dart';
-import 'package:newerapp/views/pages/orderpage.dart';
+import 'package:waka_go/theme/theme_mode.dart';
+import 'package:waka_go/views/pages/accountpage.dart';
+import 'package:waka_go/views/pages/home_page.dart';
+import 'package:waka_go/views/pages/orderpage.dart';
 import 'package:flutter/material.dart';
-import 'package:newerapp/data/notifiers.dart';
-import 'package:newerapp/views/widgets/navbarwidget.dart';
-import 'package:newerapp/views/pages/settings_page.dart';
+import 'package:waka_go/data/notifiers.dart';
+import 'package:waka_go/views/widgets/navbarwidget.dart';
+import 'package:waka_go/views/pages/settings_page.dart';
 
 List<Widget> pages = [HomePage(),Orderpage(),Accountpage() ];
 

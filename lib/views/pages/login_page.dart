@@ -1,9 +1,9 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, must_be_immutable, unused_import, sort_child_properties_last
 
-import 'package:newerapp/data/notifiers.dart';
-import 'package:newerapp/theme/theme_mode.dart';
-import 'package:newerapp/views/pages/home_page.dart';
-import 'package:newerapp/views/widgets/widgetTree.dart';
+import 'package:waka_go/data/notifiers.dart';
+import 'package:waka_go/theme/theme_mode.dart';
+import 'package:waka_go/views/pages/home_page.dart';
+import 'package:waka_go/views/widgets/widgetTree.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {

@@ -7,11 +7,32 @@ class AppColors {
 
 //Theme : Dark Mode
 ThemeData darkMode = ThemeData(
-  colorScheme: ColorScheme.dark(
-    surface: Colors.blueAccent.shade700,
-    primary: Colors.grey.shade900,
-    secondary: Colors.grey.shade900,
-    inversePrimary: Colors.grey.shade300,
+  useMaterial3: true,
+ colorScheme: const ColorScheme.dark(
+    surface: Color(0xFF121212), // dark gray surface
+    primary: Color(0xFF0A0A0A), // pure dark base
+    secondary: Color(0xFF1A1A1A), // subtle contrast surface
+    primaryContainer: Color(0xFF1E1E1E), // card-like surface
+    secondaryContainer: Color(0xFF2A2A2A),
+    inversePrimary: Color(0xFFB0B0B0), // softer white text
+    onPrimary: Colors.white, // readable text
+    onSurface: Colors.white,
+    tertiary: const Color(0xFF00B0FF), //use for icons
+  ),
+  textTheme: const TextTheme(
+    titleLarge: TextStyle(
+      fontSize: 20,
+      fontWeight: FontWeight.bold,
+      color: Colors.white,
+    ),
+    bodyMedium: TextStyle(
+      fontSize: 16,
+      color: Colors.white70,
+    ),
+    labelLarge: TextStyle(
+      fontWeight: FontWeight.w600,
+      color: Colors.white,
+    ),
   ),
 );
 
@@ -20,13 +41,38 @@ ThemeData darkMode = ThemeData(
 
 //Theme: Light Mode
 ThemeData lightMode = ThemeData(
+  useMaterial3: true,
   colorScheme: ColorScheme.light(
-    surface: Colors.blueAccent,
-    primary: Colors.grey.shade100,
-    secondary: Colors.grey.shade200,
-    inversePrimary: Colors.grey.shade900,
+    surface: Colors.white, // use for cards or containers
+    primary: const Color(0xFFFAFAFA), //  try background
+    secondary: const Color(0xFFF1F1F1), // subtle contrast
+    primaryContainer: const Color(0xFFE8E8E8), // used for secondary surfaces
+    secondaryContainer: const Color(0xFFDADADA),
+    inversePrimary: const Color(0xFF121212), // dark text for contrast
+    onPrimary: Colors.black,
+    onSurface: Colors.black87,
+    // matching neon blue accent
+    tertiary: const Color(0xFF00B0FF),
+  ),
+  textTheme: const TextTheme(
+    titleLarge: TextStyle(
+      fontSize: 20,
+      fontWeight: FontWeight.bold,
+      color: Colors.black,
+    ),
+    bodyMedium: TextStyle(
+      fontSize: 16,
+      color: Colors.black87,
+    ),
+    labelLarge: TextStyle(
+      fontWeight: FontWeight.w600,
+      color: Colors.black,
+    ),
   ),
 );
+
+
+
 
 //State provider to tole between Li and dark Mode
 

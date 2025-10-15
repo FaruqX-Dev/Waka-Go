@@ -1,11 +1,10 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, unused_import
 
-//import 'package:lottie/lottie.dart';
-import 'package:newerapp/theme/theme_mode.dart';
-import 'package:newerapp/views/pages/login_page.dart';
+import 'package:waka_go/theme/theme_mode.dart';
+import 'package:waka_go/views/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
-import 'package:newerapp/views/pages/sign_up_page.dart';
+import 'package:waka_go/views/pages/sign_up_page.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -16,11 +15,11 @@ class WelcomePage extends StatelessWidget {
     
       children:[ Container(
         decoration: BoxDecoration(
-        image: DecorationImage(image: AssetImage('assets/images/bus_terminal_2.jpg'),fit: BoxFit.cover),
+        image: DecorationImage(image: AssetImage('assets/images/bus_terminal_2.png'),fit: BoxFit.cover),
       ),
     
       ),Container(decoration: BoxDecoration(
-        color: Colors.transparent.withValues(alpha: .6)
+        color: Colors.transparent.withValues(alpha: .5)
       ),
       ),Scaffold(
         backgroundColor: Colors.transparent,
