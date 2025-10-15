@@ -11,11 +11,11 @@ ThemeData darkMode = ThemeData(
  colorScheme: const ColorScheme.dark(
     surface: Color(0xFF121212), // dark gray surface
     primary: Color(0xFF0A0A0A), // pure dark base
-    secondary: Color(0xFF1A1A1A), // subtle contrast surface
+    secondary: Color(0xFF1A1A1A),
     primaryContainer: Color(0xFF1E1E1E), // card-like surface
     secondaryContainer: Color(0xFF2A2A2A),
-    inversePrimary: Color(0xFFB0B0B0), // softer white text
-    onPrimary: Colors.white, // readable text
+    inversePrimary: Color(0xFFB0B0B0), 
+    onPrimary: Colors.white, 
     onSurface: Colors.white,
     tertiary: const Color(0xFF00B0FF), //use for icons
   ),
