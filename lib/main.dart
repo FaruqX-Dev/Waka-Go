@@ -11,6 +11,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 
 void main() {
+  //Wrapped in Devicepreview to view on Web,Usin d device preview pluin
+  
   runApp(ProviderScope(child: const MyApp()));
 }
 
